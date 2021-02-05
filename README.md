@@ -1,6 +1,6 @@
 ```
 # このレポジトリに移動する
-cd tundere_push
+cd tsundere_push
 ```
 
 ### 今後実現させること
