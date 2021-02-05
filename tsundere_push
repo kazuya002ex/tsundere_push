@@ -1,10 +1,9 @@
 git add -A
-read MESSAGE
-git commit -m "$MESSAGE"
+git commit -m $1
 git push origin HEAD
 echo ""
 echo "-----------------------------------------------------"
-echo "コミットメッセージには「 ${MESSAGE} 」"って追加しておいたわよ
+echo "コミットメッセージには「 ${1} 」"って追加しておいたわよ
 echo "コミットしたブランチは「 $(git rev-parse --abbrev-ref HEAD) 」だからちゃんと覚えておきなさいよね!"
 echo "って、別にあんたのために教えてあげた訳じゃないんだからね！///"
 echo "-----------------------------------------------------"
